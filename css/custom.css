@@ -1,0 +1,70 @@
+body {
+      margin: 0 auto;
+	max-width: 1024px;
+	font-family: Helvetica, Arial, sans-serif;
+    background-color:#03082e;
+}
+
+header {
+      margin: 0 auto;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: white;
+}
+
+button {
+    height: 40px;
+    line-height: 20px;
+    width: 50px;
+    display: inline-block;
+    background-color: #660000;
+    box-shadow: 2px 2px 1px #302e2e;
+    margin: 0 2px;
+    text-align: center;
+    background-color: white;
+    padding-right: 12px;
+    
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4 {
+    background-color: #660000;
+}
+
+#prev {
+    background-color: #660000;
+}
+
+#next {
+    background-color: #660000;
+}
+        
+        
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 666px;
+    margin-left: 120px;
+}
+
+
+.slide {
+	width: 800px;
+	height: 700px;
+	overflow: hidden;
+}
+
+#prev,
+#next {
+    float: right;
+}
+
+
+a {
+   text-decoration: none;
+    color: white;
+}
+
+p {
+  text-align: center;  
+}
